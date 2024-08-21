@@ -55,7 +55,7 @@ Um `.ino`-Dateien direkt mit der IDE zu öffnen, wie folgt in Ubuntu vorgehen:
 1. neuen Mimetype for `.ino` hinzufügen:
 
    ```bash
-   cat >/tmp/mime-ino.xml <<EOF 
+   cat >/tmp/mime-ino.xml <<EOF
    <?xml version="1.0" encoding="UTF-8"?>
    <mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
    <mime-type type="application/extension-ino">
@@ -66,7 +66,7 @@ Um `.ino`-Dateien direkt mit der IDE zu öffnen, wie folgt in Ubuntu vorgehen:
    EOF
 
    xdg-mime install /tmp/mime-ino.xml
-   
+
    killall nautilus
    ```
 
@@ -81,7 +81,7 @@ Um `.ino`-Dateien direkt mit der IDE zu öffnen, wie folgt in Ubuntu vorgehen:
    Exec=/home/${USER}/Arduino/arduino-ide_2.3.2_Linux_64bit.AppImage %F
    Type=Application
    Icon=[
-   Categories=IDE; 
+   Categories=IDE;
    MimeType=application/extension-ino;
    EOF
    ```
