@@ -3,6 +3,10 @@ const int DIT = 150;
 const int DAH = 500;
 const int END_WAIT = 1000;
 
+const float MY_PI = 3.14150265;
+const char MY_INITIAL = 'C';
+const String MY_NAME = "Christoph Jahn";
+
 void setup() {
   pinMode(RED_PIN, OUTPUT);
 }
