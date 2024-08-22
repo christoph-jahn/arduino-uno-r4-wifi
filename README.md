@@ -214,3 +214,13 @@ ASCII-Circuits:
 - <https://www.tech-chat.de/ascii-circuits.php>
 - <https://github.com/Andy1978/AACircuit>
 - <https://github.com/Blokkendoos/AACircuit>
+
+### Binary Counter
+
+Video:
+
+- <https://youtu.be/KEtut8pzXZA?si=hlFt_9b_BrLcxyQj>
+
+Code:
+
+- [Arduino_Uno_R4_Wifi_LESSON5.ino](./Arduino_Uno_R4_Wifi_LESSON5/Arduino_Uno_R4_Wifi_LESSON5.ino)
