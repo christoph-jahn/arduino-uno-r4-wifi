@@ -95,3 +95,49 @@ Um `.ino`-Dateien direkt mit der IDE zu öffnen, wie folgt in Ubuntu vorgehen:
 1. [Arduino_Unio_R4_Wifi_LESSON1.ino](./Arduino_Unio_R4_Wifi_LESSON1/Arduino_Unio_R4_Wifi_LESSON1.ino) in Arduino IDE öffnen
 2. Datei kompilieren
 3. Datei hochladen
+
+### Steckplatine mit dem Arduino verbinden
+
+Ziel ist es eine Blinkschaltung auf der Steckplatine, die mit dem Arduino verbunden ist.
+
+Referenz: <https://youtu.be/_kpiHFGB_ys?si=myoUIhc59wrmGooN>, <https://youtu.be/_kpiHFGB_ys?si=__zJkqFcaxGlXYV4>
+
+Bauteile:
+
+1. LED
+2. Widerstand
+3. Steckplatine
+
+Einschränkungen:
+
+1. Arduino R4 und LED können max. 8mA Strom aufnehmen und müssen mit einem Widerstand geschützt werden
+2. lange Bein der LED muss an den positiven Pol angeschlossen werden
+3. PIN 13 dient als positiver Pol
+4. GND schließt den Stromkreis
+
+Der Wert des benötigten Widerstands ergibt sich aus dem Ohmschen Gesetz:
+
+- V = I * R
+
+also bei einer Spannung von 5V:
+
+- R = 5 V / 8 mA = 625 Ohm
+
+Wir können den Widerstand 1K verwenden, obwohl er etwas größer ist, um mehr Strom zu begrenzen.
+
+Die Spannung von 5 V ist eine obere Abschätzung. Die LED selbst verbraucht etwas
+Spannung (zum Beispiel 2 V), aber der Widerstand ist dafür da, die Schaltung vor
+Worst-Case-Szenarien zu schützen, zum Beispiel, dass die Diode kurzgeschlossen
+ist. Er begrenzt die Stromstärke auf 8 mA.
+
+Das Testprogramm für das SOS Signal auf der Steckplatine ist
+
+- [Arduino_Unio_R4_Wifi_LESSON2.ino](./Arduino_Unio_R4_Wifi_LESSON2/Arduino_Unio_R4_Wifi_LESSON2.ino)
+
+Schaltplan:
+
+```text
+Arduino PIN 13 -> (+, langes Bein) rote LED (-, kurzes Bein) -> 1k Widerstand -> Arduino GND
+```
+
+Anmerkung: Der Widerstand kann auch vor die rote LED geschaltet werden.
