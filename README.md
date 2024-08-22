@@ -217,10 +217,19 @@ ASCII-Circuits:
 
 ### Binary Counter
 
-Video:
+Videos:
 
 - <https://youtu.be/KEtut8pzXZA?si=hlFt_9b_BrLcxyQj>
+- <https://youtu.be/w1C3OT1V3xA?si=hFxf-0Q9d3Ii40JJ>
 
 Code:
 
 - [Arduino_Uno_R4_Wifi_LESSON5.ino](./Arduino_Uno_R4_Wifi_LESSON5/Arduino_Uno_R4_Wifi_LESSON5.ino)
+
+References:
+
+- [for](https://www.arduino.cc/reference/en/language/structure/control-structure/for/)
+- [bit shift right >>](https://www.arduino.cc/reference/en/language/structure/bitwise-operators/bitshiftright/)
+- [remainder %](https://www.arduino.cc/reference/en/language/structure/arithmetic-operators/remainder/)
+- [if](https://www.arduino.cc/reference/en/language/structure/control-structure/if/)
+- [== (equal to)](https://www.arduino.cc/reference/en/language/structure/comparison-operators/equalto/)
