@@ -279,3 +279,24 @@ Schaltplan:
 Code:
 
 - [Arduino_Uno_R4_Wifi_LESSON8.ino](./Arduino_Uno_R4_Wifi_LESSON8/Arduino_Uno_R4_Wifi_LESSON8.ino)
+
+==== Hausaufgabe: grüne und rote LED
+
+Schaltplan:
+
+```plain
+  .---------.
+  |         |8      // (red)   ___
+  | Arduino |------->|--------|___|------.
+  | Uno R4  |                   1k       |
+  | Wifi    |7      // (green) ___       |
+  |         |------->|--------|___|------o
+  |         |                   1k       |
+  |         |GND                         |
+  |         |----------------------------'
+  '---------'
+```
+
+Code:
+
+- [Arduino_Uno_R4_Wifi_LESSON8_HomeWork.ino](./Arduino_Uno_R4_Wifi_LESSON8_HomeWork/Arduino_Uno_R4_Wifi_LESSON8_HomeWork.ino)
