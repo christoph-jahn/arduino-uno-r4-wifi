@@ -1,27 +1,17 @@
 void setup() {
-  pinMode(13, OUTPUT);
-  pinMode(12, OUTPUT);
-  pinMode(11, OUTPUT);
-  pinMode(10, OUTPUT);
+  for (int i = 9; i <= 13; i++) pinMode(i, OUTPUT);
 }
 
 void loop() {
-  for (int i = 0; i <= 15; i++) {
-    showNumber(i);
-    delay(100);
-  }
+  for (int i = 0; i <= 31; i++) showNumber(i);
 }
 
 void showNumber(int number) {
-  digitalWrite(10, getBitAsPinStatus(number, 0));
-  digitalWrite(11, getBitAsPinStatus(number, 1));
-  digitalWrite(12, getBitAsPinStatus(number, 2));
-  digitalWrite(13, getBitAsPinStatus(number, 3));
+  for (int i = 0; i <= 4; i++) digitalWrite(9 + i, getBitAsPinStatus(number, i));
+  delay(200);
 }
 
 int getBitAsPinStatus(int number, int bit) {
-  if ((number >> bit) % 2 == 0) {
-    return LOW;
-  }
+  if ((number >> bit) % 2 == 0) return LOW;
   return HIGH;
 }

@@ -215,7 +215,7 @@ ASCII-Circuits:
 - <https://github.com/Andy1978/AACircuit>
 - <https://github.com/Blokkendoos/AACircuit>
 
-### Binary Counter
+### Binärer Zäöler
 
 Videos:
 
@@ -226,10 +226,34 @@ Code:
 
 - [Arduino_Uno_R4_Wifi_LESSON5.ino](./Arduino_Uno_R4_Wifi_LESSON5/Arduino_Uno_R4_Wifi_LESSON5.ino)
 
-References:
+Quellen:
 
 - [for](https://www.arduino.cc/reference/en/language/structure/control-structure/for/)
 - [bit shift right >>](https://www.arduino.cc/reference/en/language/structure/bitwise-operators/bitshiftright/)
 - [remainder %](https://www.arduino.cc/reference/en/language/structure/arithmetic-operators/remainder/)
 - [if](https://www.arduino.cc/reference/en/language/structure/control-structure/if/)
 - [== (equal to)](https://www.arduino.cc/reference/en/language/structure/comparison-operators/equalto/)
+
+Den Zähler um ein Bit erweitern, um bis 31 zählen zu können:
+
+```plain
+  .---------.
+  |         |13     //       ___
+  | Arduino |------->|------|___|------.
+  | Uno R4  |                 1k       |
+  | Wifi    |12     //       ___       |
+  |         |------->|------|___|------o
+  |         |                 1k       |
+  |         |11     //       ___       |
+  |         |------->|------|___|------o
+  |         |                 1k       |
+  |         |10     //       ___       |
+  |         |------->|------|___|------o
+  |         |                 1k       |
+  |         |9      //       ___       |
+  |         |------->|------|___|------o
+  |         |                 1k       |
+  |         |GND                       |
+  |         |--------------------------'
+  '---------'
+```
