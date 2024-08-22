@@ -141,3 +141,70 @@ Arduino PIN 13 -> (+, langes Bein) rote LED (-, kurzes Bein) -> 1k Widerstand ->
 ```
 
 Anmerkung: Der Widerstand kann auch vor die rote LED geschaltet werden.
+
+### 4 PINs benutzen: 13 - 10
+
+Zugehöriges Video: <https://youtu.be/JUptf53Ni0A?si=sSWQqmXG1j4_0hRr>
+
+Schaltplan:
+
+```plain
+  .---------.
+  |         |13     //       ___
+  | Arduino |------->|------|___|------.
+  | Uno R4  |                 1k       |
+  | Wifi    |12     //       ___       |
+  |         |------->|------|___|------o
+  |         |                 1k       |
+  |         |11     //       ___       |
+  |         |------->|------|___|------o
+  |         |                 1k       |
+  |         |10     //       ___       |
+  |         |------->|------|___|------o
+  |         |                 1k       |
+  |         |GND                       |
+  |         |--------------------------'
+  '---------'
+
+
+  .-----------------------------------.
+  |                                   |
+  |        Arduino Uno R4 Wifi        |
+  |                                   |
+  '-----------------------------------'
+   GND|   13|     12|     11|     10|
+      |     |       |       |       |
+      | LED V   LED V   LED V   LED V
+      |     -       -       -       -
+      |     |       |       |       |
+      |    .-.     .-.     .-.     .-.
+      | 1k | |   1k| |  1k | |  1k | |
+      |    | |     | |     | |     | |
+      |    '-'     '-'     '-'     '-'
+      |     |       |       |       |
+      '-----o-------o-------o-------'
+
+
+                           .---------.
+                           |         |
+                        GND|         |
+ .-------------------------|         |
+ |                         |         |
+ |       ___       \\    13|         |
+ o------|___|------|<------|         |
+ |        1k               | Arduion |
+ |       ___       \\    12| Uno R4  |
+ o------|___|------|<------| Wifi    |
+ |        1k               |         |
+ |       ___       \\    11|         |
+ o------|___|------|<------|         |
+ |        1k               |         |
+ |       ___       \\    10|         |
+ '------|___|------|<------|         |
+          1k               |         |
+                           '---------'
+```
+
+Der dazugehörige Code
+
+- [Arduino_Unio_R4_Wifi_LESSON3.ino](./Arduino_Unio_R4_Wifi_LESSON3/Arduino_Unio_R4_Wifi_LESSON3.ino)
