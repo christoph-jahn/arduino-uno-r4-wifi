@@ -5,18 +5,25 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  digitalWrite(13, HIGH); delay(250); digitalWrite(13, LOW); delay(250); 
-  digitalWrite(13, HIGH); delay(250); digitalWrite(13, LOW); delay(250); 
-  digitalWrite(13, HIGH); delay(250); digitalWrite(13, LOW); delay(250);
-  delay(250);
+  blinkShort();
+  blinkShort();
+  blinkShort();
 
-  digitalWrite(13, HIGH); delay(500); digitalWrite(13, LOW); delay(250); 
-  digitalWrite(13, HIGH); delay(500); digitalWrite(13, LOW); delay(250); 
-  digitalWrite(13, HIGH); delay(500); digitalWrite(13, LOW); delay(250);
-  delay(250);
+  blinkLong();
+  blinkLong();
+  blinkLong();
 
-  digitalWrite(13, HIGH); delay(250); digitalWrite(13, LOW); delay(250); 
-  digitalWrite(13, HIGH); delay(250); digitalWrite(13, LOW); delay(250); 
-  digitalWrite(13, HIGH); delay(250); digitalWrite(13, LOW); delay(250);
-  delay(250);
+  blinkShort();
+  blinkShort();
+  blinkShort();
+
+  delay(1000);
+}
+
+void blinkShort() {
+  digitalWrite(13, HIGH); delay(100); digitalWrite(13, LOW); delay(100);
+}
+
+void blinkLong() {
+  digitalWrite(13, HIGH); delay(500); digitalWrite(13, LOW); delay(100); 
 }
