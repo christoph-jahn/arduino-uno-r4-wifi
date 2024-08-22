@@ -257,3 +257,25 @@ Den Zähler um ein Bit erweitern, um bis 31 zählen zu können:
   |         |--------------------------'
   '---------'
 ```
+
+=== Variablen benutzen: SOS
+
+Video:
+
+- [Arduino Uno R4 WiFi LESSON 8: Using Variables in Arduino](https://youtu.be/Ucvwq5hFc3U?si=VgtfJ7HHdaJ_xMnJ)
+
+Schaltplan:
+
+```plain
+  .---------.
+  |         |8      //       ___
+  | Arduino |------->|------|___|------.
+  | Uno R4  |                 1k       |
+  | Wifi    |GND                       |
+  |         |--------------------------'
+  '---------'
+```
+
+Code:
+
+- [Arduino_Uno_R4_Wifi_LESSON8.ino](./Arduino_Uno_R4_Wifi_LESSON8/Arduino_Uno_R4_Wifi_LESSON8.ino)
