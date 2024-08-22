@@ -208,3 +208,9 @@ Schaltplan:
 Der dazugehörige Code
 
 - [Arduino_Unio_R4_Wifi_LESSON3.ino](./Arduino_Unio_R4_Wifi_LESSON3/Arduino_Unio_R4_Wifi_LESSON3.ino)
+
+ASCII-Circuits:
+
+- <https://www.tech-chat.de/ascii-circuits.php>
+- <https://github.com/Andy1978/AACircuit>
+- <https://github.com/Blokkendoos/AACircuit>
