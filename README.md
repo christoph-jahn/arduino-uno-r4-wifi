@@ -90,7 +90,7 @@ Um `.ino`-Dateien direkt mit der IDE zu öffnen, wie folgt in Ubuntu vorgehen:
 
 ## Beispiele
 
-### LED an PIN 13 zum Dauerleuchten bringen
+### LED an PIN 13 zum Blinken bringen
 
 1. [Arduino_Unio_R4_Wifi_LESSON1.ino](./Arduino_Unio_R4_Wifi_LESSON1/Arduino_Unio_R4_Wifi_LESSON1.ino) in Arduino IDE öffnen
 2. Datei kompilieren
