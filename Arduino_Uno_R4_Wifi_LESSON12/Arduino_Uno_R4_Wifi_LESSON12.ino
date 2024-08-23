@@ -42,8 +42,8 @@ void loop() {
   Serial.print("Messung an PIN " + String(ANALOG_POTENTIOMETER_PIN) + " ist " + String(measurement) + ". ");
   Serial.print("Das entspricht " + String(voltage) + "V. ");
 
-  int brightness = (int) (8.0 * measurement / MAX_POTENTIOMETER);
-  analogWrite(LED_PWM_PIN, 1 << brightness);
+  int brightness = pow(2, 8.0 * measurement / MAX_POTENTIOMETER) - 1;
+  analogWrite(LED_PWM_PIN, brightness);
   Serial.println("Helligkeit der LED am PWM PIN " + String(LED_PWM_PIN) + " ist " + String(brightness) + ". ");
 }
 
