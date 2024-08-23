@@ -215,7 +215,7 @@ ASCII-Circuits:
 - <https://github.com/Andy1978/AACircuit>
 - <https://github.com/Blokkendoos/AACircuit>
 
-### Binärer Zäöler
+### Binärer Zähler
 
 Videos:
 
@@ -300,3 +300,32 @@ Schaltplan:
 Code:
 
 - [Arduino_Uno_R4_Wifi_LESSON8_HomeWork.ino](./Arduino_Uno_R4_Wifi_LESSON8_HomeWork/Arduino_Uno_R4_Wifi_LESSON8_HomeWork.ino)
+
+### Text über die serielle Schnittstelle auf dem seriellen Monitor übertragen
+
+Video: [Arduino Uno R4 WiFi LESSON 9: Using the Serial Port to Print to the Serial Monitor](https://youtu.be/4N-Q28lTzqE?si=YJxdhXsV4UTK8-D0)
+
+Code:
+
+- [Arduino_Uno_R4_Wifi_LESSON9.ino](./Arduino_Uno_R4_Wifi_LESSON9/Arduino_Uno_R4_Wifi_LESSON9.ino)
+
+Vorgehen:
+
+1. code kompilieren
+2. hochladen und ausführen
+3. "Seriellen Monitor" mit Baudrate 9600 öffnen (Symbol in der IDE rechts oben)
+
+Das Programm wird direkt nach dem Hochladen ausgeführt. Man kann es aber auch
+über den Reset-Taster auf der Arduino-Platine neu starten.
+
+Schaltplan für die Funktion `blinkingLedAndPrintingToSerialMonitor`:
+
+```text
+  .---------.
+  |         |10     //         ___
+  | Arduino |------->|--------|___|------.
+  | Uno R4  |                   1k       |
+  | Wifi    |GND                         |
+  |         |----------------------------'
+  '---------'
+```
