@@ -214,6 +214,42 @@ ASCII-Circuits:
 - <https://www.tech-chat.de/ascii-circuits.php>
 - <https://github.com/Andy1978/AACircuit>
 - <https://github.com/Blokkendoos/AACircuit>
+- <https://hackaday.com/2021/04/29/ascii-schematic-diagrams/>
+- <https://monodraw.helftone.com/>
+- <https://busyducks.com/ascii-art-arduino-pinouts/index.html>
+
+Arduino UNO R3 ():
+
+```text
+                             +-----+
++----[PWR]-------------------| USB |--+
+|                            +-----+  |
+|         GND/RST2  [ ][ ]            |
+|       MOSI2/SCK2  [ ][ ]  A5/SCL[ ] |   C5
+|          5V/MISO2 [ ][ ]  A4/SDA[ ] |   C4
+|                             AREF[ ] |
+|                              GND[ ] |
+| [ ]N/C                    SCK/13[ ] |   B5
+| [ ]IOREF                 MISO/12[ ] |   .
+| [ ]RST                   MOSI/11[ ]~|   .
+| [ ]3V3    +---+               10[ ]~|   .
+| [ ]5v    -| A |-               9[ ]~|   .
+| [ ]GND   -| R |-               8[ ] |   B0
+| [ ]GND   -| D |-                    |
+| [ ]Vin   -| U |-               7[ ] |   D7
+|          -| I |-               6[ ]~|   .
+| [ ]A0    -| N |-               5[ ]~|   .
+| [ ]A1    -| O |-               4[ ] |   .
+| [ ]A2     +---+           INT1/3[ ]~|   .
+| [ ]A3                     INT0/2[ ] |   .
+| [ ]A4/SDA  RST SCK MISO     TX>1[ ] |   .
+| [ ]A5/SCL  [ ] [ ] [ ]      RX<0[ ] |   D0
+|            [ ] [ ] [ ]              |
+|  UNO_R3    GND MOSI 5V  ____________/
+\_______________________/
+
+http://busyducks.com/ascii-art-arduinos
+```
 
 ### Binärer Zähler
 
@@ -349,3 +385,11 @@ ausgeschaltet, um eine gewünschte Spannung zu erhalten.
 Beispielsweise entspricht der Wert 126 in etwa 2,5V, weil `(126 / 255) * 5V = 49% * 5V = 2,5V`, d.h. mittels PWM ist die Spannung 1ms (= 50% * 2ms) lang 5V und dann 1ms lang 0V.
 
 Für den Wert 25 erhalten wir in etwa `(25 / 255) * 5V = 10% * 5V = 0,5V`, d.h. mittels PWM ist die Spannung 200 µs (= 10% * 2ms) lang 5V und 1800µs lang 0V.
+
+### Potentiometerwerte verarbeiten
+
+Video: [Arduino Uno R4 WiFi LESSON 12: Read Analog Voltages on the Arduino](https://youtu.be/Vp5u_8KAzFw?si=XBxjhSpf_PCkaC0a)
+
+Code: [Arduino_Uno_R4_Wifi_LESSON12.ino](./Arduino_Uno_R4_Wifi_LESSON12/Arduino_Uno_R4_Wifi_LESSON12.ino)
+
+Der eingelesene (digitale) Wert ist 10 bit lang (0..1023) und entspricht 0V bis 5V.
