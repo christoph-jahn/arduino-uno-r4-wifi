@@ -396,3 +396,11 @@ Videos:
 Code: [Arduino_Uno_R4_Wifi_LESSON12.ino](./Arduino_Uno_R4_Wifi_LESSON12/Arduino_Uno_R4_Wifi_LESSON12.ino)
 
 Der eingelesene (digitale) Wert ist 10 bit lang (0..1023) und entspricht 0V bis 5V.
+
+### Benutzereingabe in Serial Monitor
+
+Video: [Arduino Uno R4 WiFi LESSON 14: Read User Input From the Serial Monitor](https://youtu.be/GpsP5zySI_A?si=oQjdnhkG_fwaiAVp)
+
+Code:
+
+- [Arduino_Uno_R4_Wifi_LESSON14.ino](./Arduino_Uno_R4_Wifi_LESSON14/Arduino_Uno_R4_Wifi_LESSON14.ino)
