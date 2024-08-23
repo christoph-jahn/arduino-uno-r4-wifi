@@ -329,3 +329,12 @@ Schaltplan für die Funktion `blinkingLedAndPrintingToSerialMonitor`:
   |         |----------------------------'
   '---------'
 ```
+
+### Analoge PINs
+
+Einige der digitalen PINs auf der Arduino-Platine können auch analog angesteuert
+werden. Dazu gehören die mit dem Prefix "~", also 11, 10, 9, 6, 5 und 3.
+
+Video: [Arduino Uno R4 WiFi LESSON 10: Writing Analog Voltages With the Arduino](https://youtu.be/lTzOvBYNo3U?si=bL3abccMDxWuQA5c)
+
+Code: [Arduino_Uno_R4_Wifi_LESSON10.ino](./Arduino_Uno_R4_Wifi_LESSON10/Arduino_Uno_R4_Wifi_LESSON10.ino)
