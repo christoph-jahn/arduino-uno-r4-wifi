@@ -23,13 +23,22 @@ void setup() {
 }
 
 void loop() {
+  Serial.println();
   for (int i = 0; i <= FULL_BRIGHTNESS; i++) setBrightness(i);
   delay(TURNING_POINT_DELAY);
+
+  Serial.println();
   for (int i = FULL_BRIGHTNESS; i >= 0; i--) setBrightness(i);
   delay(TURNING_POINT_DELAY);
 }
 
 void setBrightness(int brightness) {
   analogWrite(ANALOG_LED_PIN, brightness);
-  Serial.println("Helligkeit der LED an analogen PIN " + String(ANALOG_LED_PIN) + " ist " + String(brightness));
+  Serial.print("Helligkeit der LED am analogen PIN " + String(ANALOG_LED_PIN) + " ist " + String(brightness) + ". ");
+  float percentage = 1.0 * brightness / FULL_BRIGHTNESS;
+  float voltage = 5.0 * percentage;
+  int onDuration = 2000 * percentage;
+  int offDuration = 2000 - onDuration;
+  Serial.print("Mittels PWM modulierte Spannung ist " + String(voltage) + "V, ");
+  Serial.println("bzw. " + String(onDuration) + "µs lang 5V und " + String(offDuration) + "µs lang 0V.");
 }

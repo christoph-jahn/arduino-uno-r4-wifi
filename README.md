@@ -335,6 +335,17 @@ Schaltplan für die Funktion `blinkingLedAndPrintingToSerialMonitor`:
 Einige der digitalen PINs auf der Arduino-Platine können auch analog angesteuert
 werden. Dazu gehören die mit dem Prefix "~", also 11, 10, 9, 6, 5 und 3.
 
-Video: [Arduino Uno R4 WiFi LESSON 10: Writing Analog Voltages With the Arduino](https://youtu.be/lTzOvBYNo3U?si=bL3abccMDxWuQA5c)
+Videos:
+
+- [Arduino Uno R4 WiFi LESSON 10: Writing Analog Voltages With the Arduino](https://youtu.be/lTzOvBYNo3U?si=bL3abccMDxWuQA5c)
+- [Arduino Uno R4 WiFi LESSON 11: Pulse Width Modulation (PWM) Simulation of Analog Voltages](https://youtu.be/4QUH5D_6XVc?si=XlpDens2aRtprerr)
 
 Code: [Arduino_Uno_R4_Wifi_LESSON10.ino](./Arduino_Uno_R4_Wifi_LESSON10/Arduino_Uno_R4_Wifi_LESSON10.ino)
+
+Der Arduino simuliert Spannung zwischen 5V und 0V mittels Pulse Width Modulation
+(PWM), d.h. es wird zwischen 0V und 5V innerhalb von 2 ms entsprechend an- und
+ausgeschaltet, um eine gewünschte Spannung zu erhalten.
+
+Beispielsweise entspricht der Wert 126 in etwa 2,5V, weil `(126 / 255) * 5V = 49% * 5V = 2,5V`, d.h. mittels PWM ist die Spannung 1ms (= 50% * 2ms) lang 5V und dann 1ms lang 0V.
+
+Für den Wert 25 erhalten wir in etwa `(25 / 255) * 5V = 10% * 5V = 0,5V`, d.h. mittels PWM ist die Spannung 200 µs (= 10% * 2ms) lang 5V und 1800µs lang 0V.
