@@ -388,7 +388,10 @@ Für den Wert 25 erhalten wir in etwa `(25 / 255) * 5V = 10% * 5V = 0,5V`, d.h. 
 
 ### Potentiometerwerte verarbeiten
 
-Video: [Arduino Uno R4 WiFi LESSON 12: Read Analog Voltages on the Arduino](https://youtu.be/Vp5u_8KAzFw?si=XBxjhSpf_PCkaC0a)
+Videos:
+
+- [Arduino Uno R4 WiFi LESSON 12: Read Analog Voltages on the Arduino](https://youtu.be/Vp5u_8KAzFw?si=XBxjhSpf_PCkaC0a)
+- [Arduino Uno R4 WiFi LESSON 13: Dimmable LED Controlled by a Potentiometer](https://youtu.be/PXf51k0alGU?si=AD_gbK_OMWb7i9aD>)
 
 Code: [Arduino_Uno_R4_Wifi_LESSON12.ino](./Arduino_Uno_R4_Wifi_LESSON12/Arduino_Uno_R4_Wifi_LESSON12.ino)
 
