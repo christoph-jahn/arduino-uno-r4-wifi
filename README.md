@@ -404,3 +404,4 @@ Video: [Arduino Uno R4 WiFi LESSON 14: Read User Input From the Serial Monitor](
 Code:
 
 - [Arduino_Uno_R4_Wifi_LESSON14.ino](./Arduino_Uno_R4_Wifi_LESSON14/Arduino_Uno_R4_Wifi_LESSON14.ino)
+- [Arduino_Uno_R4_Wifi_LESSON14_HomeWork.ino](./Arduino_Uno_R4_Wifi_LESSON14_HomeWork/Arduino_Uno_R4_Wifi_LESSON14_HomeWork.ino)
