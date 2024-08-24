@@ -2,7 +2,8 @@
 
 Basierend auf dem Tutorial von
 
-- <https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson01.html>
+- [**SunFounder:** Arduino Video-Lektionen für absolute
+  Anfänger](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/video_lesson.html)
 
 ## System
 
