@@ -408,3 +408,11 @@ Code:
 
 - [Arduino_Uno_R4_Wifi_LESSON14.ino](./Arduino_Uno_R4_Wifi_LESSON14/Arduino_Uno_R4_Wifi_LESSON14.ino)
 - [Arduino_Uno_R4_Wifi_LESSON14_HomeWork.ino](./Arduino_Uno_R4_Wifi_LESSON14_HomeWork/Arduino_Uno_R4_Wifi_LESSON14_HomeWork.ino)
+
+### If-Anweisungen und Bedingungen
+
+Video: [Arduino Uno R4 WiFi LESSON 16: Understanding If Statements and Conditionals](https://youtu.be/H5OlCuUWEg8?si=FUK0kBlGXAGAppRK)
+
+Code:
+
+- [Arduino_Uno_R4_Wifi_LESSON16.ino](./Arduino_Uno_R4_Wifi_LESSON16/Arduino_Uno_R4_Wifi_LESSON16.ino)
