@@ -416,3 +416,4 @@ Video: [Arduino Uno R4 WiFi LESSON 16: Understanding If Statements and Condition
 Code:
 
 - [Arduino_Uno_R4_Wifi_LESSON16.ino](./Arduino_Uno_R4_Wifi_LESSON16/Arduino_Uno_R4_Wifi_LESSON16.ino)
+- [Arduino_Uno_R4_Wifi_LESSON16_HomeWork.ino](./Arduino_Uno_R4_Wifi_LESSON16_HomeWork/Arduino_Uno_R4_Wifi_LESSON16_HomeWork.ino)
