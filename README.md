@@ -399,7 +399,10 @@ Der eingelesene (digitale) Wert ist 10 bit lang (0..1023) und entspricht 0V bis 
 
 ### Benutzereingabe in Serial Monitor
 
-Video: [Arduino Uno R4 WiFi LESSON 14: Read User Input From the Serial Monitor](https://youtu.be/GpsP5zySI_A?si=oQjdnhkG_fwaiAVp)
+Video:
+
+- [Arduino Uno R4 WiFi LESSON 14: Read User Input From the Serial Monitor](https://youtu.be/GpsP5zySI_A?si=oQjdnhkG_fwaiAVp)
+- [Arduino Uno R4 WiFi LESSON 15: Controlling LED Based on User Input From Serial Monitor](https://youtu.be/d-Ma3u7GngA?si=c6Q344gpWYhnTEgP)
 
 Code:
 

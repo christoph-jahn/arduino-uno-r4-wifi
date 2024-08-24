@@ -24,6 +24,7 @@ const int DIMMABLE_LED_PIN = 11;
 const int SERIAL_BAUD_RATE = 9600;
 const int INPUT_MIN = 0;
 const int INPUT_MAX = 10;
+const int POLLING_DELAY = 100;
 
 void setup() {
   Serial.begin(SERIAL_BAUD_RATE);
@@ -42,6 +43,6 @@ void loop() {
 
 int promptForBrightness() {
   Serial.println("Gib einen Wert zwischen 0 und 10 für die Helligkeit der LED ein:");
-  while (Serial.available() == 0) {}
+  while (Serial.available() == 0) delay(POLLING_DELAY);
   return Serial.parseInt();
 }
