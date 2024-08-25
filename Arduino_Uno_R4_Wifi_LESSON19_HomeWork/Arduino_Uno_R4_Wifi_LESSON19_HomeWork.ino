@@ -38,23 +38,24 @@ const int BLUE_LED_PIN = 9;
 const int WAIT_TIME = 1000;
 const int BLINKING_DURATION = 100;
 
-const int MAX_COUNT = 25;
-int counter;
+const int REPETITIONS = 25;
 
 void setup() {
-  counter = 0;
   pinMode(RED_LED_PIN, OUTPUT);
   pinMode(GREEN_LED_PIN, OUTPUT);
   pinMode(BLUE_LED_PIN, OUTPUT);
+
+  for (int i = 0; i < REPETITIONS; i++) runRgbSequence();
 }
 
 void loop() {
-  if (counter >= MAX_COUNT) return; else counter++;
+}
 
+void runRgbSequence() {
   setRGB(255, 0, 0);
   setRGB(0, 255, 0);
   setRGB(0, 0, 255);
-  setRGB(0, 0, 0);
+  setRGB(0, 0, 0);  
 
   delay(WAIT_TIME);
 }
