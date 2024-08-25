@@ -456,6 +456,7 @@ Code:
 Videos:
 
 - [LEKTION 22: Steuerung eines Servomotors mit Ihrem Arduino](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson22.html)
+- [LEKTION 23: Steuerung eines Servomotors mit einem Potentiometer](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson23.html)
 
 Neues Bauteil:
 
@@ -471,3 +472,4 @@ Arduino IDE:
 Code:
 
 - [Arduino_Uno_R4_Wifi_LESSON22.ino](./Arduino_Uno_R4_Wifi_LESSON22/Arduino_Uno_R4_Wifi_LESSON22.ino)
+- [Arduino_Uno_R4_Wifi_LESSON22_HomeWork.ino](./Arduino_Uno_R4_Wifi_LESSON22_HomeWork/Arduino_Uno_R4_Wifi_LESSON22_HomeWork.ino)
