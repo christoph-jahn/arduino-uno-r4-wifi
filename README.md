@@ -422,9 +422,9 @@ Code:
 - [Arduino_Uno_R4_Wifi_LESSON16.ino](./Arduino_Uno_R4_Wifi_LESSON16/Arduino_Uno_R4_Wifi_LESSON16.ino)
 - [Arduino_Uno_R4_Wifi_LESSON16_HomeWork.ino](./Arduino_Uno_R4_Wifi_LESSON16_HomeWork/Arduino_Uno_R4_Wifi_LESSON16_HomeWork.ino)
 
-### Steuerung einer RGB-LED mit einem Arduino
+### Steuerung einer RGB-LED
 
-Video:
+Videos:
 
 - [LEKTION 18: Steuerung einer RGB-LED mit einem Arduino](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson18.html)
 - [LEKTION 19: Farbmischung mit einer RGB-LED](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson19.html)
@@ -450,3 +450,24 @@ Code:
 
 - [Arduino_Uno_R4_Wifi_LESSON18.ino](./Arduino_Uno_R4_Wifi_LESSON18/Arduino_Uno_R4_Wifi_LESSON18.ino)
 - [Arduino_Uno_R4_Wifi_LESSON19_HomeWork.ino](./Arduino_Uno_R4_Wifi_LESSON19_HomeWork/Arduino_Uno_R4_Wifi_LESSON19_HomeWork.ino)
+
+### Steuerung eines Servomotors
+
+Videos:
+
+- [LEKTION 22: Steuerung eines Servomotors mit Ihrem Arduino](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson22.html)
+
+Neues Bauteil:
+
+- Micro Servo 95 (SG90)
+- oder ein stärkeren Servo, der dann aber an eine externe Stromquelle
+  angeschlossen werden muss. Dabei sollte Masse des Arduinos und Masse der
+  externen 5V-Stromquelle mit einander verbunden sein.
+
+Arduino IDE:
+
+- Library Manager > [Servo](https://www.arduino.cc/reference/en/libraries/servo/) by Michael Margolis (v1.2.2)
+
+Code:
+
+- [Arduino_Uno_R4_Wifi_LESSON22.ino](./Arduino_Uno_R4_Wifi_LESSON22/Arduino_Uno_R4_Wifi_LESSON22.ino)
