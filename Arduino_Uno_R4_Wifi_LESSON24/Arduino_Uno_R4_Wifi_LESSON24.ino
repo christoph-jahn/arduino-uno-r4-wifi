@@ -31,17 +31,21 @@ const int BUTTON_PIN = 2;
 const int LED_PIN = 10;
 const int SERIAL_BAUD_RATE = 115200;
 
-const int PAUSE_DURATION = 100;
+const int POLLING_TIME = 100;
+
+int ledState = LOW;
 
 void setup() {
   Serial.begin(SERIAL_BAUD_RATE);
   pinMode(BUTTON_PIN, INPUT);
   pinMode(LED_PIN, OUTPUT);
+  digitalWrite(LED_PIN, ledState);
 }
 
 void loop() {
-  int value = digitalRead(BUTTON_PIN);
-  Serial.println("Gelesener Wert des digitalen PINs " + String(BUTTON_PIN) + " ist " + String(value));
-  if (value == 1) digitalWrite(LED_PIN, LOW); else digitalWrite(LED_PIN, HIGH);
-  delay(PAUSE_DURATION);
+  while (digitalRead(BUTTON_PIN) == 0) delay(POLLING_TIME);
+  if (ledState == LOW) ledState = HIGH; else ledState = LOW;
+
+  while (digitalRead(BUTTON_PIN) == 1) delay(POLLING_TIME);
+  digitalWrite(LED_PIN, ledState); 
 }
