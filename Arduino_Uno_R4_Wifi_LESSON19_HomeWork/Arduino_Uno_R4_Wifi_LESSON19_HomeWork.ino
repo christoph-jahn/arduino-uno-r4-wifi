@@ -56,15 +56,11 @@ void setup() {
 
 void loop() {
   Serial.print("Wie oft soll die RGB-Sequenz ausgeführt werden? ");
-  while (Serial.available() == 0) { delay(SERIAL_POLLING_TIME); }
+  while (Serial.available() == 0) delay(SERIAL_POLLING_TIME);
   int repetitions = Serial.parseInt();
   Serial.println(repetitions);
 
-  int i = 0;
-  while (i < repetitions) {
-    runRgbSequence();
-    i++;
-  }
+  for (int i = 0; i < repetitions; i++) runRgbSequence();
 }
 
 void runRgbSequence() {
