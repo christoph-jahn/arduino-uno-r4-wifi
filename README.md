@@ -421,3 +421,26 @@ Code:
 
 - [Arduino_Uno_R4_Wifi_LESSON16.ino](./Arduino_Uno_R4_Wifi_LESSON16/Arduino_Uno_R4_Wifi_LESSON16.ino)
 - [Arduino_Uno_R4_Wifi_LESSON16_HomeWork.ino](./Arduino_Uno_R4_Wifi_LESSON16_HomeWork/Arduino_Uno_R4_Wifi_LESSON16_HomeWork.ino)
+
+### Steuerung einer RGB-LED mit einem Arduino
+
+Video: [LEKTION 18: Steuerung einer RGB-LED mit einem Arduino](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson18.html)
+
+Die RGB-LED hat 4 PINs, die unterschiedlich lang sind:
+
+```text
+   __________________
+  |      RGB LED     |
+  '------------------'
+   R|  M|   G|    B|
+    |   |    |     |
+    |   |    |
+        |
+    Rot GND  Grün  Blau
+```
+
+Der längste PIN ist Masse (GND).
+
+Code:
+
+- [Arduino_Uno_R4_Wifi_LESSON18.ino](./Arduino_Uno_R4_Wifi_LESSON18/Arduino_Uno_R4_Wifi_LESSON18.ino)
