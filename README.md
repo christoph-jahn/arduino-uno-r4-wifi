@@ -412,7 +412,10 @@ Code:
 
 ### If-Anweisungen und Bedingungen
 
-Video: [Arduino Uno R4 WiFi LESSON 16: Understanding If Statements and Conditionals](https://youtu.be/H5OlCuUWEg8?si=FUK0kBlGXAGAppRK)
+Video:
+
+- [Arduino Uno R4 WiFi LESSON 16: Understanding If Statements and Conditionals](https://youtu.be/H5OlCuUWEg8?si=FUK0kBlGXAGAppRK)
+- [Arduino Uno R4 WiFi LESSON 17: Control Multiple LED from the Serial Monitor](https://youtu.be/Ai7uqYHt_Yc?si=fcDbaUwOy8mm9M35)
 
 Code:
 
