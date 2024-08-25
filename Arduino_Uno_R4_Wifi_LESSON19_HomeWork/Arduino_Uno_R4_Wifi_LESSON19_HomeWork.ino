@@ -1,5 +1,11 @@
 /**
- * Mit dem "Reset"-Taster auf der Arduino-Platine startet das Programm neu.
+ * In der Arduino IDE:
+ *   - öffne den "Seriellen Monitor" (Symbol rechts oben)
+ *   - Konfiguration des seriellen Monitors sollte wie folgt sein
+ *     - "Kein Zeilenende"
+ *     - "115200 Baud"
+ * 
+ * Der "Reset"-Taster auf der Arduino-Platine startet das Programm neu.
  *
  * Schaltplan:
  *   __________________
@@ -27,9 +33,12 @@
  *
  * Die RGB LED hat vier Beine mit unterschiedlicher Länge. Masse ist der längste.
  *
- * Die digital PINs mit dem vorangestellten Zeichen "~" (PMW) können auch analog angesteuert werden, 
+ * Die digital PINs mit dem vorangestellten Zeichen "~" (PWM) können auch analog angesteuert werden, 
  * also: ~11, ~10, ~9, ~6, ~5 und ~3.
  */
+
+const int SERIAL_BAUD_RATE = 115200;
+const int SERIAL_POLLING_TIME = 100;
 
 const int RED_LED_PIN = 11;
 const int GREEN_LED_PIN = 10;
@@ -38,17 +47,20 @@ const int BLUE_LED_PIN = 9;
 const int WAIT_TIME = 1000;
 const int BLINKING_DURATION = 100;
 
-const int REPETITIONS = 25;
-
 void setup() {
+  Serial.begin(SERIAL_BAUD_RATE);
   pinMode(RED_LED_PIN, OUTPUT);
   pinMode(GREEN_LED_PIN, OUTPUT);
   pinMode(BLUE_LED_PIN, OUTPUT);
-
-  for (int i = 0; i < REPETITIONS; i++) runRgbSequence();
 }
 
 void loop() {
+  Serial.print("Wie oft soll die RGB-Sequenz ausgeführt werden? ");
+  while (Serial.available() == 0) { delay(SERIAL_POLLING_TIME); }
+  int repetitions = Serial.parseInt();
+  Serial.println(repetitions);
+
+  for (int i = 0; i < repetitions; i++) runRgbSequence();
 }
 
 void runRgbSequence() {
