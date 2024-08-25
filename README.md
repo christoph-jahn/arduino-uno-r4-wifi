@@ -473,3 +473,18 @@ Code:
 
 - [Arduino_Uno_R4_Wifi_LESSON22.ino](./Arduino_Uno_R4_Wifi_LESSON22/Arduino_Uno_R4_Wifi_LESSON22.ino)
 - [Arduino_Uno_R4_Wifi_LESSON22_HomeWork.ino](./Arduino_Uno_R4_Wifi_LESSON22_HomeWork/Arduino_Uno_R4_Wifi_LESSON22_HomeWork.ino)
+
+### Ein Schalter mit Pullup-Widerstand bauen
+
+Videos:
+
+- [LEKTION 24: Ein Schalter mit Pullup-Widerstand bauen](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson24.html)
+
+Neue Bauteile:
+
+- Taster
+- Pullup-Widerstand
+
+Code:
+
+- [Arduino_Uno_R4_Wifi_LESSON24.ino](./Arduino_Uno_R4_Wifi_LESSON24/Arduino_Uno_R4_Wifi_LESSON24.ino)
