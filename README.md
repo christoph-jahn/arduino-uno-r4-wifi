@@ -489,3 +489,14 @@ Neue Bauteile:
 Code:
 
 - [Arduino_Uno_R4_Wifi_LESSON24.ino](./Arduino_Uno_R4_Wifi_LESSON24/Arduino_Uno_R4_Wifi_LESSON24.ino)
+
+### Steuerung der RGB-LED mit Drucktaster
+
+Videos:
+
+- [LEKTION 26: Steuerung der RGB-LED-Farbe mit Drucktasten](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson26.html)
+
+Code:
+
+- [Arduino_Uno_R4_Wifi_LESSON25_HomeWork.ino](./Arduino_Uno_R4_Wifi_LESSON25_HomeWork/Arduino_Uno_R4_Wifi_LESSON25_HomeWork.ino)
+- [Arduino_Uno_R4_Wifi_LESSON26.ino](./Arduino_Uno_R4_Wifi_LESSON26/Arduino_Uno_R4_Wifi_LESSON26.ino)
