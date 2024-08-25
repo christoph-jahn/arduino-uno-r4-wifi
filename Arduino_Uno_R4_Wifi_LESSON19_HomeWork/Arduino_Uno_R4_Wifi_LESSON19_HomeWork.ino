@@ -60,7 +60,11 @@ void loop() {
   int repetitions = Serial.parseInt();
   Serial.println(repetitions);
 
-  for (int i = 0; i < repetitions; i++) runRgbSequence();
+  int i = 0;
+  while (i < repetitions) {
+    runRgbSequence();
+    i++;
+  }
 }
 
 void runRgbSequence() {

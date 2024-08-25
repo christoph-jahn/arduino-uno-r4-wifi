@@ -429,6 +429,7 @@ Video:
 - [LEKTION 18: Steuerung einer RGB-LED mit einem Arduino](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson18.html)
 - [LEKTION 19: Farbmischung mit einer RGB-LED](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson19.html)
 - [LEKTION 20: For-Schleifen in Arduino](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson20.html)
+- [LEKTION 21: Verständnis von While-Schleifen](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson21.html)
 
 Die RGB-LED hat 4 PINs, die unterschiedlich lang sind:
 
