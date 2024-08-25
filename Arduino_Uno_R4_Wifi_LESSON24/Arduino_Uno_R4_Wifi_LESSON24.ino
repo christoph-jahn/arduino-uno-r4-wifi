@@ -42,11 +42,11 @@ void setup() {
 }
 
 void loop() {
-  digitalWrite(LED_PIN, LOW); waitUntilButtonWasPressedAndReleased();
-  digitalWrite(LED_PIN, HIGH); waitUntilButtonWasPressedAndReleased();
+  digitalWrite(LED_PIN, LOW); waitUntilButtonWasReleasedAndPressed();
+  digitalWrite(LED_PIN, HIGH); waitUntilButtonWasReleasedAndPressed();
 }
 
-void waitUntilButtonWasPressedAndReleased() {
-  while (digitalRead(BUTTON_PIN) == BUTTON_RELEASED) delay(POLLING_TIME);
+void waitUntilButtonWasReleasedAndPressed() {
   while (digitalRead(BUTTON_PIN) == BUTTON_PRESSED) delay(POLLING_TIME);
+  while (digitalRead(BUTTON_PIN) == BUTTON_RELEASED) delay(POLLING_TIME);
 }
