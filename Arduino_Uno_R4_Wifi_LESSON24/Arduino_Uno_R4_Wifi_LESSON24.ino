@@ -28,24 +28,25 @@
 
 
 const int BUTTON_PIN = 2;
+const int BUTTON_PRESSED = 0;
+const int BUTTON_RELEASED = 1;
 const int LED_PIN = 10;
 const int SERIAL_BAUD_RATE = 115200;
 
 const int POLLING_TIME = 100;
 
-int ledState = LOW;
-
 void setup() {
   Serial.begin(SERIAL_BAUD_RATE);
   pinMode(BUTTON_PIN, INPUT);
   pinMode(LED_PIN, OUTPUT);
-  digitalWrite(LED_PIN, ledState);
 }
 
 void loop() {
-  while (digitalRead(BUTTON_PIN) == 0) delay(POLLING_TIME);
-  if (ledState == LOW) ledState = HIGH; else ledState = LOW;
+  digitalWrite(LED_PIN, LOW); waitUntilButtonWasPressedAndReleased();
+  digitalWrite(LED_PIN, HIGH); waitUntilButtonWasPressedAndReleased();
+}
 
-  while (digitalRead(BUTTON_PIN) == 1) delay(POLLING_TIME);
-  digitalWrite(LED_PIN, ledState); 
+void waitUntilButtonWasPressedAndReleased() {
+  while (digitalRead(BUTTON_PIN) == BUTTON_RELEASED) delay(POLLING_TIME);
+  while (digitalRead(BUTTON_PIN) == BUTTON_PRESSED) delay(POLLING_TIME);
 }

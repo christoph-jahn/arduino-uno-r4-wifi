@@ -479,6 +479,7 @@ Code:
 Videos:
 
 - [LEKTION 24: Ein Schalter mit Pullup-Widerstand bauen](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson24.html)
+- [LEKTION 25: Einen Kippschalter mit einem Taster bauen](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson25.html)
 
 Neue Bauteile:
 
