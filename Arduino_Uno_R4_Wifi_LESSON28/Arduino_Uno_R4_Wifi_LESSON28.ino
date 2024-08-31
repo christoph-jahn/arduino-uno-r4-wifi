@@ -33,8 +33,11 @@
  * => frame[0][0]  = 1, frame[0][11] = 1
  *    frame[7][0]  = 1, frame[7][11] = 1
  *    alle anderen      frame[y][x]  = 0,
+ *
+ * ArduinoGraphics v1.1.2: https://github.com/arduino-libraries/ArduinoGraphics
  */
 
+#include "ArduinoGraphics.h"
 #include "Arduino_LED_Matrix.h"
 
 const int SERIAL_BAUD_RATE = 115200;
@@ -66,7 +69,8 @@ void loop() {
   //exampleAllOn();
   //exampleAnimateByColumn();
   //exampleAnimateByPixel();
-  exampleFlickering();
+  //exampleFlickering();
+  exampleText();
 
   delay(POLLING_TIME);
 }
@@ -127,4 +131,14 @@ void exampleFlickering() {
     delay(25);
     matrix.renderBitmap(frame, 8, 12);
   }
+}
+
+void exampleText() {
+  matrix.beginDraw();
+  matrix.textScrollSpeed(50);
+  matrix.textFont(Font_5x7);
+  matrix.beginText(0, 1, 255, 0, 0);
+  matrix.println("   Willkommen ur ArduinoGraphics Bibliothek!  ");
+  matrix.endText(SCROLL_LEFT);
+  matrix.endDraw();
 }
