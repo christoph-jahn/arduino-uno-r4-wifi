@@ -500,3 +500,13 @@ Code:
 
 - [Arduino_Uno_R4_Wifi_LESSON25_HomeWork.ino](./Arduino_Uno_R4_Wifi_LESSON25_HomeWork/Arduino_Uno_R4_Wifi_LESSON25_HomeWork.ino)
 - [Arduino_Uno_R4_Wifi_LESSON26.ino](./Arduino_Uno_R4_Wifi_LESSON26/Arduino_Uno_R4_Wifi_LESSON26.ino)
+
+### Interne Pullup-Widerstände verwenden
+
+Video:
+
+- [LEKTION 27: Verwendung interner Pullup-Widerstände am Arduino](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson27.html)
+
+Code:
+
+- [Arduino_Uno_R4_Wifi_LESSON27.ino](./Arduino_Uno_R4_Wifi_LESSON27/Arduino_Uno_R4_Wifi_LESSON27.ino)
