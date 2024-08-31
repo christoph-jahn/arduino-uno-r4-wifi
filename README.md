@@ -521,3 +521,14 @@ Video:
 Code:
 
 - [Arduino_Uno_R4_Wifi_LESSON28.ino](./Arduino_Uno_R4_Wifi_LESSON28/Arduino_Uno_R4_Wifi_LESSON28.ino)
+
+### Springender Pixel auf der LED-Matrix
+
+Video:
+
+- [LEKTION 29: Erstellen Sie ein springendes Pixel auf der R4 WiFi LED-Matrix](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson29.html)
+
+Code:
+
+- [Arduino_Uno_R4_Wifi_LESSON28_HomeWork.ino](./Arduino_Uno_R4_Wifi_LESSON28_HomeWork/Arduino_Uno_R4_Wifi_LESSON28_HomeWork.ino)
+- [Arduino_Uno_R4_Wifi_LESSON29.ino](./Arduino_Uno_R4_Wifi_LESSON29/Arduino_Uno_R4_Wifi_LESSON29.ino)
