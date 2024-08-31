@@ -511,3 +511,13 @@ Code:
 
 - [Arduino_Uno_R4_Wifi_LESSON27.ino](./Arduino_Uno_R4_Wifi_LESSON27/Arduino_Uno_R4_Wifi_LESSON27.ino)
 - [Arduino_Uno_R4_Wifi_LESSON27_HomeWork.ino](./Arduino_Uno_R4_Wifi_LESSON27_HomeWork/Arduino_Uno_R4_Wifi_LESSON27_HomeWork.ino)
+
+### LED-Matrix
+
+Video:
+
+- [LEKTION 28: Verwendung der LED-Matrix auf dem Arduino R4 WiFi](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson28.html)
+
+Code:
+
+- [Arduino_Uno_R4_Wifi_LESSON28.ino](./Arduino_Uno_R4_Wifi_LESSON28/Arduino_Uno_R4_Wifi_LESSON28.ino)
