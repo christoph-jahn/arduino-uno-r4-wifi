@@ -510,3 +510,4 @@ Video:
 Code:
 
 - [Arduino_Uno_R4_Wifi_LESSON27.ino](./Arduino_Uno_R4_Wifi_LESSON27/Arduino_Uno_R4_Wifi_LESSON27.ino)
+- [Arduino_Uno_R4_Wifi_LESSON27_HomeWork.ino](./Arduino_Uno_R4_Wifi_LESSON27_HomeWork/Arduino_Uno_R4_Wifi_LESSON27_HomeWork.ino)
