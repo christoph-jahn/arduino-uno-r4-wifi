@@ -532,3 +532,18 @@ Code:
 
 - [Arduino_Uno_R4_Wifi_LESSON28_HomeWork.ino](./Arduino_Uno_R4_Wifi_LESSON28_HomeWork/Arduino_Uno_R4_Wifi_LESSON28_HomeWork.ino)
 - [Arduino_Uno_R4_Wifi_LESSON29.ino](./Arduino_Uno_R4_Wifi_LESSON29/Arduino_Uno_R4_Wifi_LESSON29.ino)
+
+### Ein-Spieler-Pong
+
+Video:
+
+- [LEKTION 30: Erstellen Sie ein Ein-Spieler-Pong-Spiel auf der R4 WiFi Matrix](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson30.html)
+
+Code:
+
+- [Arduino_Uno_R4_Wifi_LESSON29_HomeWork.ino](./Arduino_Uno_R4_Wifi_LESSON29_HomeWork/Arduino_Uno_R4_Wifi_LESSON29_HomeWork.ino)
+- [Arduino_Uno_R4_Wifi_LESSON30.ino](./Arduino_Uno_R4_Wifi_LESSON30/Arduino_Uno_R4_Wifi_LESSON30.ino)
+
+Links:
+
+- [Create a Bouncing Pixel on the Arduino Uno R4 WiFi LED Matrix](https://toptechboy.com/create-a-bouncing-pixel-on-the-arduino-no-r4-wifi-led-matrix/)
