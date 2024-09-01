@@ -7,6 +7,32 @@ Basierend auf dem Tutorial von
 - [**github.com:** sunfounder / elite-explorer-kit](https://github.com/sunfounder/elite-explorer-kit/tree/docs-de)
 - [**YouTube.com:** Playlist - All New Arduino R4 WiFi LESSONS for Absolute Beginners](https://youtube.com/playlist?list=PLGs0VKk2DiYyn0wN335MXpbi3PRJTMmex&si=e0M1TxBktZBGgxzf)
 
+Table of Contents
+
+1. [System](#system)
+2. [Installation](#installation)
+3. [Beispiele](#beispiele)
+   1. [LED an PIN 13 zum Blinken bringen](#led-an-pin-13-zum-blinken-bringen)
+   2. [Steckplatine mit dem Arduino verbinden](#steckplatine-mit-dem-arduino-verbinden)
+   3. [4 PINs benutzen: 13 - 10](#4-pins-benutzen-13---10)
+   4. [Binärer Zähler](#binärer-zähler)
+   5. [Variablen benutzen: SOS](#variablen-benutzen-sos)
+      1. [Hausaufgabe: grüne und rote LED](#hausaufgabe-grüne-und-rote-led)
+   6. [Text über die serielle Schnittstelle auf dem seriellen Monitor übertragen](#text-über-die-serielle-schnittstelle-auf-dem-seriellen-monitor-übertragen)
+   7. [Analoge PINs](#analoge-pins)
+   8. [Potentiometerwerte verarbeiten](#potentiometerwerte-verarbeiten)
+   9. [Benutzereingabe im Serial Monitor](#benutzereingabe-im-serial-monitor)
+   10. [If-Anweisungen und Bedingungen](#if-anweisungen-und-bedingungen)
+   11. [Steuerung einer RGB-LED](#steuerung-einer-rgb-led)
+   12. [Steuerung eines Servomotors (SG90)](#steuerung-eines-servomotors-sg90)
+   13. [Ein Schalter mit Pullup-Widerstand bauen](#ein-schalter-mit-pullup-widerstand-bauen)
+   14. [Steuerung der RGB-LED mit Drucktaster](#steuerung-der-rgb-led-mit-drucktaster)
+   15. [Interne Pullup-Widerstände verwenden](#interne-pullup-widerstände-verwenden)
+   16. [LED-Matrix](#led-matrix)
+   17. [LED-Matrix: Springendes Pixel](#led-matrix-springendes-pixel)
+   18. [LED-Matrix: Ein-Spieler-Pong](#led-matrix-ein-spieler-pong)
+   19. [DHT11: Temperatur und Luftfeuchtigkeit messen](#dht11-temperatur-und-luftfeuchtigkeit-messen)
+
 ## System
 
 - Lenovo Yoga Duet 7 13/ITL6
@@ -309,7 +335,7 @@ Den Zähler um ein Bit erweitern, um bis 31 zählen zu können:
   '---------'
 ```
 
-=== Variablen benutzen: SOS
+### Variablen benutzen: SOS
 
 Video:
 
@@ -331,7 +357,7 @@ Code:
 
 - [08_LED_SOS_mit_Variablen.ino](./08_LED_SOS_mit_Variablen/08_LED_SOS_mit_Variablen.ino)
 
-==== Hausaufgabe: grüne und rote LED
+#### Hausaufgabe: grüne und rote LED
 
 Schaltplan:
 
