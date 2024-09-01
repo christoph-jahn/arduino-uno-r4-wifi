@@ -553,7 +553,14 @@ Links:
 Video:
 
 - [LEKTION 31: Temperatur und Luftfeuchtigkeit mit dem DHT11 messen](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson31.html)
+- [LEKTION 32: Temperatur und Luftfeuchtigkeit auf der LED-Matrix anzeigen](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson32.html)
 
 Code:
 
 - [Arduino_Uno_R4_Wifi_LESSON31.ino](./Arduino_Uno_R4_Wifi_LESSON31/Arduino_Uno_R4_Wifi_LESSON31.ino)
+- [Arduino_Uno_R4_Wifi_LESSON31_HomeWork.ino](./Arduino_Uno_R4_Wifi_LESSON31_HomeWork/Arduino_Uno_R4_Wifi_LESSON31_HomeWork.ino)
+- [Arduino_Uno_R4_Wifi_LESSON32.ino](./Arduino_Uno_R4_Wifi_LESSON31/Arduino_Uno_R4_Wifi_LESSON31.ino)
+
+Links:
+
+- [Using the Arduino Uno R4 Wifi to Measure Temperature and Humidity With the DHT11](https://toptechboy.com/using-the-arduino-uno-r4-wifi-to-measure-temperature-and-humidity-with-the-dht11/)
