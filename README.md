@@ -547,3 +547,13 @@ Code:
 Links:
 
 - [Create a Bouncing Pixel on the Arduino Uno R4 WiFi LED Matrix](https://toptechboy.com/create-a-bouncing-pixel-on-the-arduino-no-r4-wifi-led-matrix/)
+
+### Temperatur und Luftfeuchtigkeit mit dem DHT11 messen
+
+Video:
+
+- [LEKTION 31: Temperatur und Luftfeuchtigkeit mit dem DHT11 messen](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson31.html)
+
+Code:
+
+- [Arduino_Uno_R4_Wifi_LESSON31.ino](./Arduino_Uno_R4_Wifi_LESSON31/Arduino_Uno_R4_Wifi_LESSON31.ino)
