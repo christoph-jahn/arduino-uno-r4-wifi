@@ -4,6 +4,8 @@ Basierend auf dem Tutorial von
 
 - [**SunFounder:** Arduino Video-Lektionen für absolute
   Anfänger](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/video_lesson.html)
+- [**github.com:** sunfounder / elite-explorer-kit](https://github.com/sunfounder/elite-explorer-kit/tree/docs-de)
+- [**YouTube.com:** Playlist - All New Arduino R4 WiFi LESSONS for Absolute Beginners](https://youtube.com/playlist?list=PLGs0VKk2DiYyn0wN335MXpbi3PRJTMmex&si=e0M1TxBktZBGgxzf)
 
 ## System
 
@@ -93,7 +95,13 @@ Um `.ino`-Dateien direkt mit der IDE zu öffnen, wie folgt in Ubuntu vorgehen:
 
 ### LED an PIN 13 zum Blinken bringen
 
-1. [Arduino_Unio_R4_Wifi_LESSON1.ino](./Arduino_Unio_R4_Wifi_LESSON1/Arduino_Unio_R4_Wifi_LESSON1.ino) in Arduino IDE öffnen
+Video:
+
+- [LEKTION 1: Erste Schritte für absolute Anfänger](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson01.html)
+
+Schritte:
+
+1. [01_LED_Blinken.ino](./01_LED_Blinken/01_LED_Blinken.ino) in Arduino IDE öffnen
 2. Datei kompilieren
 3. Datei hochladen
 
@@ -101,7 +109,9 @@ Um `.ino`-Dateien direkt mit der IDE zu öffnen, wie folgt in Ubuntu vorgehen:
 
 Ziel ist es eine Blinkschaltung auf der Steckplatine, die mit dem Arduino verbunden ist.
 
-Referenz: <https://youtu.be/_kpiHFGB_ys?si=myoUIhc59wrmGooN>, <https://youtu.be/_kpiHFGB_ys?si=__zJkqFcaxGlXYV4>
+Video:
+
+- [LEKTION 2: Wie man Schaltungen mit einem Breadboard aufbaut](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson02.html)
 
 Bauteile:
 
@@ -133,7 +143,7 @@ ist. Er begrenzt die Stromstärke auf 8 mA.
 
 Das Testprogramm für das SOS Signal auf der Steckplatine ist
 
-- [Arduino_Unio_R4_Wifi_LESSON2.ino](./Arduino_Unio_R4_Wifi_LESSON2/Arduino_Unio_R4_Wifi_LESSON2.ino)
+- [02_LED_SOS.ino](./02_LED_SOS/02_LED_SOS.ino)
 
 Schaltplan:
 
@@ -145,7 +155,10 @@ Anmerkung: Der Widerstand kann auch vor die rote LED geschaltet werden.
 
 ### 4 PINs benutzen: 13 - 10
 
-Zugehöriges Video: <https://youtu.be/JUptf53Ni0A?si=sSWQqmXG1j4_0hRr>
+Zugehöriges Video:
+
+- [LEKTION 3: Eine LED mit dem Arduino blinken lassen](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson03.html)
+- [LEKTION 4: Saubere und ordentliche Schaltungen auf einem Breadboard aufbauen](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson04.html)
 
 Schaltplan:
 
@@ -208,7 +221,7 @@ Schaltplan:
 
 Der dazugehörige Code
 
-- [Arduino_Unio_R4_Wifi_LESSON3.ino](./Arduino_Unio_R4_Wifi_LESSON3/Arduino_Unio_R4_Wifi_LESSON3.ino)
+- [03_LED_Sequenz.ino](./03_LED_Sequenz/03_LED_Sequenz.ino)
 
 ASCII-Circuits:
 
@@ -256,12 +269,13 @@ http://busyducks.com/ascii-art-arduinos
 
 Videos:
 
-- <https://youtu.be/KEtut8pzXZA?si=hlFt_9b_BrLcxyQj>
-- <https://youtu.be/w1C3OT1V3xA?si=hFxf-0Q9d3Ii40JJ>
+- [LEKTION 5: Erklärung, wie Computer auf Basis von Binärzahlen funktionieren](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson05.html)
+- [LEKTION 6: Erstelle einen Binärzähler mit Arduino](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson06.html)
+- [LEKTION 7: Rechnen mit Binärzahlen](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson07.html)
 
 Code:
 
-- [Arduino_Uno_R4_Wifi_LESSON5.ino](./Arduino_Uno_R4_Wifi_LESSON5/Arduino_Uno_R4_Wifi_LESSON5.ino)
+- [05_LED_4-Bit_Anzeige.ino](./05_LED_4-Bit_Anzeige/05_LED_4-Bit_Anzeige.ino)
 
 Quellen:
 
@@ -299,7 +313,7 @@ Den Zähler um ein Bit erweitern, um bis 31 zählen zu können:
 
 Video:
 
-- [Arduino Uno R4 WiFi LESSON 8: Using Variables in Arduino](https://youtu.be/Ucvwq5hFc3U?si=VgtfJ7HHdaJ_xMnJ)
+- [LEKTION 8: Verwendung von Variablen in Arduino](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson08.html)
 
 Schaltplan:
 
@@ -315,7 +329,7 @@ Schaltplan:
 
 Code:
 
-- [Arduino_Uno_R4_Wifi_LESSON8.ino](./Arduino_Uno_R4_Wifi_LESSON8/Arduino_Uno_R4_Wifi_LESSON8.ino)
+- [08_LED_SOS_mit_Variablen.ino](./08_LED_SOS_mit_Variablen/08_LED_SOS_mit_Variablen.ino)
 
 ==== Hausaufgabe: grüne und rote LED
 
@@ -336,15 +350,17 @@ Schaltplan:
 
 Code:
 
-- [Arduino_Uno_R4_Wifi_LESSON8_HomeWork.ino](./Arduino_Uno_R4_Wifi_LESSON8_HomeWork/Arduino_Uno_R4_Wifi_LESSON8_HomeWork.ino)
+- [08H_LEDs_Blinken.ino](./08H_LEDs_Blinken/08H_LEDs_Blinken.ino)
 
 ### Text über die serielle Schnittstelle auf dem seriellen Monitor übertragen
 
-Video: [Arduino Uno R4 WiFi LESSON 9: Using the Serial Port to Print to the Serial Monitor](https://youtu.be/4N-Q28lTzqE?si=YJxdhXsV4UTK8-D0)
+Video:
+
+- [LEKTION 9: Verwendung des seriellen Ports zum Ausgeben auf den seriellen Monitor](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson09.html)
 
 Code:
 
-- [Arduino_Uno_R4_Wifi_LESSON9.ino](./Arduino_Uno_R4_Wifi_LESSON9/Arduino_Uno_R4_Wifi_LESSON9.ino)
+- [09_Serial_Monitor_Ausgabe.ino](./09_Serial_Monitor_Ausgabe/09_Serial_Monitor_Ausgabe.ino)
 
 Vorgehen:
 
@@ -374,10 +390,10 @@ werden. Dazu gehören die mit dem Prefix "~", also 11, 10, 9, 6, 5 und 3.
 
 Videos:
 
-- [Arduino Uno R4 WiFi LESSON 10: Writing Analog Voltages With the Arduino](https://youtu.be/lTzOvBYNo3U?si=bL3abccMDxWuQA5c)
-- [Arduino Uno R4 WiFi LESSON 11: Pulse Width Modulation (PWM) Simulation of Analog Voltages](https://youtu.be/4QUH5D_6XVc?si=XlpDens2aRtprerr)
+- [LEKTION 10: Schreiben von analogen Spannungen mit dem Arduino](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson10.html)
+- [LEKTION 11: Pulsweitenmodulation (PWM) zur Simulation von Analogspannungen](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson11.html)
 
-Code: [Arduino_Uno_R4_Wifi_LESSON10.ino](./Arduino_Uno_R4_Wifi_LESSON10/Arduino_Uno_R4_Wifi_LESSON10.ino)
+Code: [10_LED_Dimmen.ino](./10_LED_Dimmen/10_LED_Dimmen.ino)
 
 Der Arduino simuliert Spannung zwischen 5V und 0V mittels Pulse Width Modulation
 (PWM), d.h. es wird zwischen 0V und 5V innerhalb von 2 ms entsprechend an- und
@@ -391,36 +407,36 @@ Für den Wert 25 erhalten wir in etwa `(25 / 255) * 5V = 10% * 5V = 0,5V`, d.h. 
 
 Videos:
 
-- [Arduino Uno R4 WiFi LESSON 12: Read Analog Voltages on the Arduino](https://youtu.be/Vp5u_8KAzFw?si=XBxjhSpf_PCkaC0a)
-- [Arduino Uno R4 WiFi LESSON 13: Dimmable LED Controlled by a Potentiometer](https://youtu.be/PXf51k0alGU?si=AD_gbK_OMWb7i9aD>)
+- [LEKTION 12: Analoge Spannungen mit dem Arduino messen](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson12.html)
+- [LEKTION 13: Dimmbares LED gesteuert von einem Potentiometer](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson13.html)
 
-Code: [Arduino_Uno_R4_Wifi_LESSON12.ino](./Arduino_Uno_R4_Wifi_LESSON12/Arduino_Uno_R4_Wifi_LESSON12.ino)
+Code: [12_Potentiometer.ino](./12_Potentiometer/12_Potentiometer.ino)
 
 Der eingelesene (digitale) Wert ist 10 bit lang (0..1023) und entspricht 0V bis 5V.
 
-### Benutzereingabe in Serial Monitor
+### Benutzereingabe im Serial Monitor
 
 Video:
 
-- [Arduino Uno R4 WiFi LESSON 14: Read User Input From the Serial Monitor](https://youtu.be/GpsP5zySI_A?si=oQjdnhkG_fwaiAVp)
-- [Arduino Uno R4 WiFi LESSON 15: Controlling LED Based on User Input From Serial Monitor](https://youtu.be/d-Ma3u7GngA?si=c6Q344gpWYhnTEgP)
+- [LEKTION 14: Benutzereingaben über den seriellen Monitor lesen](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson14.html)
+- [LEKTION 15: Steuerung einer LED basierend auf Benutzereingaben vom seriellen Monitor](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson15.html)
 
 Code:
 
-- [Arduino_Uno_R4_Wifi_LESSON14.ino](./Arduino_Uno_R4_Wifi_LESSON14/Arduino_Uno_R4_Wifi_LESSON14.ino)
-- [Arduino_Uno_R4_Wifi_LESSON14_HomeWork.ino](./Arduino_Uno_R4_Wifi_LESSON14_HomeWork/Arduino_Uno_R4_Wifi_LESSON14_HomeWork.ino)
+- [14_Serial_Monitor_Eingabe.ino](./14_Serial_Monitor_Eingabe/14_Serial_Monitor_Eingabe.ino)
+- [14H_LED_Helligkeit_per_Eingabe.ino](./14H_LED_Helligkeit_per_Eingabe/14H_LED_Helligkeit_per_Eingabe.ino)
 
 ### If-Anweisungen und Bedingungen
 
 Video:
 
-- [Arduino Uno R4 WiFi LESSON 16: Understanding If Statements and Conditionals](https://youtu.be/H5OlCuUWEg8?si=FUK0kBlGXAGAppRK)
-- [Arduino Uno R4 WiFi LESSON 17: Control Multiple LED from the Serial Monitor](https://youtu.be/Ai7uqYHt_Yc?si=fcDbaUwOy8mm9M35)
+- [LEKTION 16: Verständnis von If-Anweisungen und Bedingungsschleifen](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson16.html)
+- [LEKTION 17: Steuerung mehrerer LEDs über den seriellen Monitor](https://docs.sunfounder.com/projects/elite-explorer-kit/de/latest/video_lesson/lesson17.html)
 
 Code:
 
-- [Arduino_Uno_R4_Wifi_LESSON16.ino](./Arduino_Uno_R4_Wifi_LESSON16/Arduino_Uno_R4_Wifi_LESSON16.ino)
-- [Arduino_Uno_R4_Wifi_LESSON16_HomeWork.ino](./Arduino_Uno_R4_Wifi_LESSON16_HomeWork/Arduino_Uno_R4_Wifi_LESSON16_HomeWork.ino)
+- [16_Serial_Monitor_Bedingte_Eingabe.ino](./16_Serial_Monitor_Bedingte_Eingabe/16_Serial_Monitor_Bedingte_Eingabe.ino)
+- [16H_LED_Einschalten_per_Eingabe.ino](./16H_LEDs_Einschalten_per_Eingabe/16H_LED_Einschalten_per_Eingabe.ino)
 
 ### Steuerung einer RGB-LED
 
@@ -448,10 +464,10 @@ Der längste PIN ist Masse (GND).
 
 Code:
 
-- [Arduino_Uno_R4_Wifi_LESSON18.ino](./Arduino_Uno_R4_Wifi_LESSON18/Arduino_Uno_R4_Wifi_LESSON18.ino)
-- [Arduino_Uno_R4_Wifi_LESSON19_HomeWork.ino](./Arduino_Uno_R4_Wifi_LESSON19_HomeWork/Arduino_Uno_R4_Wifi_LESSON19_HomeWork.ino)
+- [18_RGB_LED.ino](./18_RGB_LED/18_RGB_LED.ino)
+- [19H_RGB_Sequenz.ino](./19H_RGB_Sequenz/19H_RGB_Sequenz.ino)
 
-### Steuerung eines Servomotors
+### Steuerung eines Servomotors (SG90)
 
 Videos:
 
@@ -471,8 +487,8 @@ Arduino IDE:
 
 Code:
 
-- [Arduino_Uno_R4_Wifi_LESSON22.ino](./Arduino_Uno_R4_Wifi_LESSON22/Arduino_Uno_R4_Wifi_LESSON22.ino)
-- [Arduino_Uno_R4_Wifi_LESSON22_HomeWork.ino](./Arduino_Uno_R4_Wifi_LESSON22_HomeWork/Arduino_Uno_R4_Wifi_LESSON22_HomeWork.ino)
+- [22_Servo_SG90.ino](./22_Servo_SG90/22_Servo_SG90.ino)
+- [22H_Servo_SG90_steuern_per_Eingabe.ino](./22H_Servo_SG90_steuern_per_Eingabe/22H_Servo_SG90_steuern_per_Eingabe.ino)
 
 ### Ein Schalter mit Pullup-Widerstand bauen
 
@@ -488,7 +504,7 @@ Neue Bauteile:
 
 Code:
 
-- [Arduino_Uno_R4_Wifi_LESSON24.ino](./Arduino_Uno_R4_Wifi_LESSON24/Arduino_Uno_R4_Wifi_LESSON24.ino)
+- [24_Schalter_mit_Pullup-Widerstand.ino](./24_Schalter_mit_Pullup-Widerstand/24_Schalter_mit_Pullup-Widerstand.ino)
 
 ### Steuerung der RGB-LED mit Drucktaster
 
@@ -498,8 +514,8 @@ Videos:
 
 Code:
 
-- [Arduino_Uno_R4_Wifi_LESSON25_HomeWork.ino](./Arduino_Uno_R4_Wifi_LESSON25_HomeWork/Arduino_Uno_R4_Wifi_LESSON25_HomeWork.ino)
-- [Arduino_Uno_R4_Wifi_LESSON26.ino](./Arduino_Uno_R4_Wifi_LESSON26/Arduino_Uno_R4_Wifi_LESSON26.ino)
+- [25H_RGB-LED_mit_Kippschalter.ino](./25H_RGB-LED_mit_Kippschalter/25H_RGB-LED_mit_Kippschalter.ino)
+- [26_RGB-LED_mit_Drucktasten.ino](./26_RGB-LED_mit_Drucktasten/26_RGB-LED_mit_Drucktasten.ino)
 
 ### Interne Pullup-Widerstände verwenden
 
@@ -509,8 +525,8 @@ Video:
 
 Code:
 
-- [Arduino_Uno_R4_Wifi_LESSON27.ino](./Arduino_Uno_R4_Wifi_LESSON27/Arduino_Uno_R4_Wifi_LESSON27.ino)
-- [Arduino_Uno_R4_Wifi_LESSON27_HomeWork.ino](./Arduino_Uno_R4_Wifi_LESSON27_HomeWork/Arduino_Uno_R4_Wifi_LESSON27_HomeWork.ino)
+- [27_Interner_Pullup-Widerstand.ino](./27_Interner_Pullup-Widerstand/27_Interner_Pullup-Widerstand.ino)
+- [27H_RGB-LED_mit_internen_Pullup-Widerständen.ino](./27H_RGB-LED_mit_internen_Pullup-Widerständen/27H_RGB-LED_mit_internen_Pullup-Widerständen.ino)
 
 ### LED-Matrix
 
@@ -520,9 +536,9 @@ Video:
 
 Code:
 
-- [Arduino_Uno_R4_Wifi_LESSON28.ino](./Arduino_Uno_R4_Wifi_LESSON28/Arduino_Uno_R4_Wifi_LESSON28.ino)
+- [28_LED-Matrix_Pixel_und_Text.ino](./28_LED-Matrix_Pixel_und_Text/28_LED-Matrix_Pixel_und_Text.ino)
 
-### Springender Pixel auf der LED-Matrix
+### LED-Matrix: Springendes Pixel
 
 Video:
 
@@ -530,10 +546,10 @@ Video:
 
 Code:
 
-- [Arduino_Uno_R4_Wifi_LESSON28_HomeWork.ino](./Arduino_Uno_R4_Wifi_LESSON28_HomeWork/Arduino_Uno_R4_Wifi_LESSON28_HomeWork.ino)
-- [Arduino_Uno_R4_Wifi_LESSON29.ino](./Arduino_Uno_R4_Wifi_LESSON29/Arduino_Uno_R4_Wifi_LESSON29.ino)
+- [28H_LED-Matrix_springendes_Pixel.ino](./28H_LED-Matrix_springendes_Pixel/28H_LED-Matrix_springendes_Pixel.ino)
+- [29_LED-Matrix_springendes_Pixel.ino](./29_LED-Matrix_springendes_Pixel/29_LED-Matrix_springendes_Pixel.ino)
 
-### Ein-Spieler-Pong
+### LED-Matrix: Ein-Spieler-Pong
 
 Video:
 
@@ -541,14 +557,14 @@ Video:
 
 Code:
 
-- [Arduino_Uno_R4_Wifi_LESSON29_HomeWork.ino](./Arduino_Uno_R4_Wifi_LESSON29_HomeWork/Arduino_Uno_R4_Wifi_LESSON29_HomeWork.ino)
-- [Arduino_Uno_R4_Wifi_LESSON30.ino](./Arduino_Uno_R4_Wifi_LESSON30/Arduino_Uno_R4_Wifi_LESSON30.ino)
+- [29H_Spiel_Pong.ino](./29H_Spiel_Pong/29H_Spiel_Pong.ino)
+- [30_Spiel_Pong.ino](./30_Spiel_Pong/30_Spiel_Pong.ino)
 
 Links:
 
 - [Create a Bouncing Pixel on the Arduino Uno R4 WiFi LED Matrix](https://toptechboy.com/create-a-bouncing-pixel-on-the-arduino-no-r4-wifi-led-matrix/)
 
-### Temperatur und Luftfeuchtigkeit mit dem DHT11 messen
+### DHT11: Temperatur und Luftfeuchtigkeit messen
 
 Video:
 
@@ -557,9 +573,9 @@ Video:
 
 Code:
 
-- [Arduino_Uno_R4_Wifi_LESSON31.ino](./Arduino_Uno_R4_Wifi_LESSON31/Arduino_Uno_R4_Wifi_LESSON31.ino)
-- [Arduino_Uno_R4_Wifi_LESSON31_HomeWork.ino](./Arduino_Uno_R4_Wifi_LESSON31_HomeWork/Arduino_Uno_R4_Wifi_LESSON31_HomeWork.ino)
-- [Arduino_Uno_R4_Wifi_LESSON32.ino](./Arduino_Uno_R4_Wifi_LESSON31/Arduino_Uno_R4_Wifi_LESSON31.ino)
+- [31_DHT11_Temperatur_und_Feuchtigkeit_messen.ino](./31_DHT11_Temperatur_und_Feuchtigkeit_messen/31_DHT11_Temperatur_und_Feuchtigkeit_messen.ino)
+- [31H_Temperaturanzeige_auf_Knopfdruck.ino](./31H_Temperaturanzeige_auf_Knopfdruck/31H_Temperaturanzeige_auf_Knopfdruck.ino)
+- [32_Temperaturanzeige_auf_Knopfdruck.ino](./32_Temperaturanzeige_auf_Knopfdruck/32_Temperaturanzeige_auf_Knopfdruck.ino)
 
 Links:
 
