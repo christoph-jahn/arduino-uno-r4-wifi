@@ -635,7 +635,9 @@ V_AUS = (10.000 x 5) / (R_F + 10.000)
 Video:
 
 - [Arduino Uno R4 WiFi LESSON 33: Using a Photoresistor in a Project](https://www.youtube.com/watch?v=AEJ-j7EDyZ4)
+- [Arduino Uno R4 WiFi LESSON 34: Controlling Servo with Photo Resistor](https://www.youtube.com/watch?v=rP0Go2EV358)
 
 Code:
 
 - [33_Fotowiderstand.ino](./33_Fotowiderstand/33_Fotowiderstand.ino)
+- [33H_Lichstaerkeanzeige.ino](./33H_Lichstaerkeanzeige/33H_Lichstaerkeanzeige.ino)
