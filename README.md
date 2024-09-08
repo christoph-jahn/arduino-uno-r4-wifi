@@ -32,6 +32,7 @@ Table of Contents
    17. [LED-Matrix: Springendes Pixel](#led-matrix-springendes-pixel)
    18. [LED-Matrix: Ein-Spieler-Pong](#led-matrix-ein-spieler-pong)
    19. [DHT11: Temperatur und Luftfeuchtigkeit messen](#dht11-temperatur-und-luftfeuchtigkeit-messen)
+   20. [Fotowiderstand](#fotowiderstand)
 
 ## System
 
@@ -606,3 +607,35 @@ Code:
 Links:
 
 - [Using the Arduino Uno R4 Wifi to Measure Temperature and Humidity With the DHT11](https://toptechboy.com/using-the-arduino-uno-r4-wifi-to-measure-temperature-and-humidity-with-the-dht11/)
+
+### Fotowiderstand
+
+Eine Erhöhung der Anzahl an Photonen bei einem Fotowiderstand resultiert in einer Zunahme der Anzahl an Elektronen im Leitungsband, einer Zunahme der Anzahl an Löchern im Valenzband sowie einer Zunahme der Leitfähigkeit. Gleichzeitig nimmt der elektrische Widerstand ab.
+
+Der Widerstandsbereich erstreckt sich von 100 kΩ (dunkel) bis 500 Ω (sehr hell).
+
+Formeln:
+
+```text
+V = I R
+5 = I (R_F + R_1)
+5 = I (R_F + 10.000)
+I = 5 / (R_F + 10.000)
+
+V_AUS = I R_1
+
+V_AUS = (10.000 x 5) / (R_F + 10.000)
+```
+
+- Der Strom, der durch die Schaltung fließt, beträgt `5 / (R_F + 10.000) A`.
+- Die an dem Fotowiderstand gemessene Ausgangsspannung beträgt `(10.000 x 5) / (R_F + 10.000)`, d.h.
+  - bei sehr hellem Licht höchstens `R_F = 0 Ω` -> `V_AUS = 5 V`
+  - bei absoluter Dunkelheit etwa `R_F = 100.000 Ω`-> `V_AUS = 0,45 V`
+
+Video:
+
+- [Arduino Uno R4 WiFi LESSON 33: Using a Photoresistor in a Project](https://www.youtube.com/watch?v=AEJ-j7EDyZ4)
+
+Code:
+
+- [33_Fotowiderstand.ino](./33_Fotowiderstand/33_Fotowiderstand.ino)
